@@ -1,0 +1,127 @@
+Date : 2022-11-25 05:44:25
+Directory : c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement
+Total : 94 files,  8679 codes, 412 comments, 1702 blanks, all 10793 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| HTML     |         60 |      7,190 |        275 |      1,239 |      8,704 |
+| Python   |         32 |      1,245 |        137 |        450 |      1,832 |
+| CSS      |          1 |        175 |          0 |          4 |        179 |
+| Markdown |          1 |         69 |          0 |          9 |         78 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++-----------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                        | files      | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                           |         94 |      8,679 |        412 |      1,702 |     10,793 |
+| hospital                                                                                                                    |         26 |      1,071 |         77 |        366 |      1,514 |
+| hospital\migrations                                                                                                         |         20 |        339 |         19 |        116 |        474 |
+| hospitalmanagement                                                                                                          |          5 |        159 |         58 |         79 |        296 |
+| static                                                                                                                      |          1 |        175 |          0 |          4 |        179 |
+| templates                                                                                                                   |         60 |      7,190 |        275 |      1,239 |      8,704 |
+| templates\hospital                                                                                                          |         60 |      7,190 |        275 |      1,239 |      8,704 |
++-----------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-----------------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                                                                    | language | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\README.md                                                | Markdown |         69 |          0 |          9 |         78 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\hospital\__init__.py                                     | Python   |          0 |          0 |          1 |          1 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\hospital\admin.py                                        | Python   |         14 |          1 |          4 |         19 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\hospital\apps.py                                         | Python   |          3 |          0 |          3 |          6 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\hospital\forms.py                                        | Python   |         49 |          7 |         19 |         75 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\hospital\migrations\0001_initial.py                      | Python   |         44 |          1 |          7 |         52 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\hospital\migrations\0002_delete_teacherextra.py          | Python   |         10 |          1 |          6 |         17 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\hospital\migrations\0003_patient_admitdate.py            | Python   |         12 |          1 |          6 |         19 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\hospital\migrations\0004_patientdischargedetails.py      | Python   |         27 |          1 |          6 |         34 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\hospital\migrations\0005_appointment.py                  | Python   |         17 |          1 |          6 |         24 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\hospital\migrations\0006_appointment_status.py           | Python   |         12 |          1 |          6 |         19 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\hospital\migrations\0007_auto_20200520_1023.py           | Python   |         27 |          1 |          6 |         34 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\hospital\migrations\0008_doctor_profile_pic.py           | Python   |         12 |          1 |          6 |         19 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\hospital\migrations\0009_auto_20200523_1118.py           | Python   |         12 |          1 |          6 |         19 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\hospital\migrations\0010_auto_20200523_1122.py           | Python   |         12 |          1 |          6 |         19 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\hospital\migrations\0011_auto_20200523_1325.py           | Python   |         12 |          1 |          6 |         19 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\hospital\migrations\0012_auto_20200523_1336.py           | Python   |         12 |          1 |          6 |         19 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\hospital\migrations\0013_patient_profile_pic.py          | Python   |         12 |          1 |          6 |         19 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\hospital\migrations\0014_auto_20200526_1455.py           | Python   |         12 |          1 |          6 |         19 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\hospital\migrations\0015_auto_20200526_1501.py           | Python   |         17 |          1 |          6 |         24 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\hospital\migrations\0016_auto_20200622_1830.py           | Python   |         22 |          1 |          6 |         29 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\hospital\migrations\0017_auto_20200622_1835.py           | Python   |         28 |          1 |          6 |         35 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\hospital\migrations\0018_auto_20201015_2036.py           | Python   |         27 |          1 |          6 |         34 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\hospital\migrations\0019_auto_20221124_1023.py           | Python   |         12 |          1 |          6 |         19 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\hospital\migrations\__init__.py                          | Python   |          0 |          0 |          1 |          1 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\hospital\models.py                                       | Python   |         64 |          3 |         16 |         83 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\hospital\views.py                                        | Python   |        602 |         47 |        207 |        856 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\hospitalmanagement\__init__.py                           | Python   |          0 |          0 |          1 |          1 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\hospitalmanagement\asgi.py                               | Python   |          4 |          8 |          5 |         17 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\hospitalmanagement\settings.py                           | Python   |         81 |         31 |         37 |        149 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\hospitalmanagement\urls.py                               | Python   |         70 |         11 |         31 |        112 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\hospitalmanagement\wsgi.py                               | Python   |          4 |          8 |          5 |         17 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\manage.py                                                | Python   |         15 |          2 |          5 |         22 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\static\style.css                                         | CSS      |        175 |          0 |          4 |        179 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\templates\hospital\aboutus.html                          | HTML     |        300 |          3 |         14 |        317 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\templates\hospital\admin_add_appointment.html            | HTML     |         72 |          4 |         12 |         88 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\templates\hospital\admin_add_doctor.html                 | HTML     |         86 |          4 |         12 |        102 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\templates\hospital\admin_add_patient.html                | HTML     |         89 |          4 |         10 |        103 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\templates\hospital\admin_appointment.html                | HTML     |        156 |          3 |         35 |        194 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\templates\hospital\admin_approve_appointment.html        | HTML     |         91 |          7 |         13 |        111 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\templates\hospital\admin_approve_doctor.html             | HTML     |         93 |          7 |         15 |        115 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\templates\hospital\admin_approve_patient.html            | HTML     |         97 |          7 |         14 |        118 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\templates\hospital\admin_base.html                       | HTML     |        247 |          8 |         36 |        291 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\templates\hospital\admin_dashboard.html                  | HTML     |        122 |          3 |         15 |        140 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\templates\hospital\admin_dashboard_cards.html            | HTML     |        173 |          3 |         22 |        198 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\templates\hospital\admin_discharge_patient.html          | HTML     |         89 |          7 |         14 |        110 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\templates\hospital\admin_doctor.html                     | HTML     |        180 |          3 |         39 |        222 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\templates\hospital\admin_doctor_patient_card.html        | HTML     |         75 |          3 |         19 |         97 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\templates\hospital\admin_patient.html                    | HTML     |        183 |          3 |         40 |        226 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\templates\hospital\admin_update_doctor.html              | HTML     |         86 |          4 |          9 |         99 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\templates\hospital\admin_update_patient.html             | HTML     |         89 |          4 |          9 |        102 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\templates\hospital\admin_view_appointment.html           | HTML     |         87 |          7 |         12 |        106 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\templates\hospital\admin_view_doctor.html                | HTML     |         97 |          7 |         15 |        119 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\templates\hospital\admin_view_doctor_Specialisation.html | HTML     |         42 |          7 |          6 |         55 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\templates\hospital\admin_view_patient.html               | HTML     |         99 |          7 |         14 |        120 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\templates\hospital\adminclick.html                       | HTML     |         39 |          3 |         16 |         58 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\templates\hospital\adminlogin.html                       | HTML     |         78 |          4 |         19 |        101 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\templates\hospital\adminsignup.html                      | HTML     |         84 |          4 |         21 |        109 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\templates\hospital\contactdirectory.html                 | HTML     |        212 |         11 |          7 |        230 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\templates\hospital\contactus.html                        | HTML     |        190 |          4 |         13 |        207 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\templates\hospital\contactussuccess.html                 | HTML     |         31 |          3 |         10 |         44 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\templates\hospital\doctor_appointment.html               | HTML     |        167 |          3 |         34 |        204 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\templates\hospital\doctor_base.html                      | HTML     |        286 |          9 |         40 |        335 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\templates\hospital\doctor_dashboard.html                 | HTML     |         89 |          3 |          9 |        101 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\templates\hospital\doctor_dashboard_cards.html           | HTML     |        168 |          3 |         20 |        191 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\templates\hospital\doctor_delete_appointment.html        | HTML     |         91 |          7 |         13 |        111 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\templates\hospital\doctor_patient.html                   | HTML     |        167 |          3 |         38 |        208 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\templates\hospital\doctor_view_appointment.html          | HTML     |         95 |          7 |         14 |        116 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\templates\hospital\doctor_view_discharge_patient.html    | HTML     |         95 |          7 |         15 |        117 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\templates\hospital\doctor_view_patient.html              | HTML     |        102 |          6 |         21 |        129 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\templates\hospital\doctor_wait_for_approval.html         | HTML     |         36 |          3 |         12 |         51 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\templates\hospital\doctorclick.html                      | HTML     |         39 |          3 |         20 |         62 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\templates\hospital\doctorlogin.html                      | HTML     |         78 |          4 |         20 |        102 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\templates\hospital\doctorsignup.html                     | HTML     |         96 |          4 |         21 |        121 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\templates\hospital\download_bill.html                    | HTML     |        156 |          3 |         39 |        198 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\templates\hospital\faq.html                              | HTML     |        195 |          4 |         11 |        210 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\templates\hospital\footer.html                           | HTML     |        139 |          1 |         28 |        168 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\templates\hospital\homebase.html                         | HTML     |         13 |          3 |          6 |         22 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\templates\hospital\index.html                            | HTML     |        137 |          9 |         30 |        176 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\templates\hospital\navbar.html                           | HTML     |         40 |          3 |         17 |         60 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\templates\hospital\patient_appointment.html              | HTML     |        150 |          3 |         32 |        185 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\templates\hospital\patient_base.html                     | HTML     |        289 |          8 |         42 |        339 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\templates\hospital\patient_book_appointment.html         | HTML     |         75 |          4 |         21 |        100 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\templates\hospital\patient_dashboard.html                | HTML     |          6 |          3 |          3 |         12 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\templates\hospital\patient_dashboard_cards.html          | HTML     |        247 |          3 |         30 |        280 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\templates\hospital\patient_discharge.html                | HTML     |        200 |          3 |         47 |        250 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\templates\hospital\patient_final_bill.html               | HTML     |        193 |          3 |         43 |        239 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\templates\hospital\patient_generate_bill.html            | HTML     |        188 |          3 |         44 |        235 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\templates\hospital\patient_view_appointment.html         | HTML     |        103 |          6 |         15 |        124 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\templates\hospital\patient_view_doctor.html              | HTML     |        111 |          6 |         25 |        142 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\templates\hospital\patient_wait_for_approval.html        | HTML     |         36 |          3 |         11 |         50 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\templates\hospital\patientclick.html                     | HTML     |         39 |          3 |         17 |         59 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\templates\hospital\patientlogin.html                     | HTML     |         78 |          4 |         20 |        102 |
+| c:\Users\hanee\OneDrive\Desktop\Github_Projects\hospitalmanagement\templates\hospital\patientsignup.html                    | HTML     |         99 |          4 |         20 |        123 |
+| Total                                                                                                                       |          |      8,679 |        412 |      1,702 |     10,793 |
++-----------------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+

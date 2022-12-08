@@ -1,0 +1,175 @@
+{% extends 'hospital/homebase.html' %}
+{% load static %}
+<!--
+developed By : Raj
+-->
+
+
+{% block content %}
+
+
+<head>
+  <style media="screen">
+  .carousel,.item,.active{
+   height:100%;
+ }
+.carousel-inner{
+    height:100%;
+}
+.carousel-caption {
+    position: relative;
+    left: auto;
+    right: auto;
+}
+    .doctor {
+      margin-top: 0px;
+      margin-bottom: 0px;
+      background-image: url('{% static "images/bg.jpg" %}');
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .doctor h5,
+    h3 {
+      text-align: center;
+    }
+    .patient {
+      margin-top: 0px;
+      margin-bottom: 0px;
+      background-image: url('{% static "images/pat.jpg" %}');
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .patient h5,
+    h3 {
+      text-align: center;
+    }
+    .admin {
+      margin-top: 0px;
+      margin-bottom: 0px;
+      background-image: url('{% static "images/Hospiadmin.jpg" %}');
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .admin h5,
+    h3 {
+      text-align: center;
+    }
+
+
+    .alert {
+      margin: 0px;
+    }
+
+
+
+    .glow {
+      font-size: 50px;
+      color: white;
+      text-align: center;
+      -webkit-animation: glow 1s ease-in-out infinite alternate;
+      -moz-animation: glow 1s ease-in-out infinite alternate;
+      animation: glow 1s ease-in-out infinite alternate;
+    }
+
+    @-webkit-keyframes glow {
+      from {
+        text-shadow: 0 0 10px #eeeeee, 0 0 20px #253e4c, 0 0 30px #253e4c, 0 0 40px #253e4c, 0 0 50px #5462b3, 0 0 60px #5462b3, 0 0 70px #5462b3;
+      }
+
+      to {
+        text-shadow: 0 0 20px #eeeeee, 0 0 30px #4e95f9, 0 0 40px #4e95f9, 0 0 50px #4e95f9, 0 0 60px #4e95f9, 0 0 70px #ff4da6, 0 0 80px #4e95f9;
+      }
+    }
+  </style>
+</head>
+<br>
+<br>
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="patient" style="margin-bottom: 0px;margin-top: 0px;">
+        <br>
+        <h5 class="display-2 glow">Exceptional care you can trust</h5>
+        <br><br><br><br><br>
+        <br><br><br><br><br>
+        <br><br><br><br><br>
+        <br><br><br><br><br>
+        <p>
+          <div class="carousel-caption">
+            <h3 class="display-6 ">A different kind of healthcare company</h3>
+            <p>Unlike other private healthcare providers, we can look after you no matter how complex or acute your condition. We cover all aspects of medicine, including cardiac and cancer care, paediatrics, orthopaedics, rehabilitation and obstetrics. </p>
+          </div>
+
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="admin" style="margin-bottom: 0px;margin-top: 0px;">
+        <br>
+        <h5 class="display-2 glow">People taking care of people</h5>
+        <br><br><br><br><br>
+        <br><br><br><br><br>
+        <br><br><br><br><br>
+        <br><br><br><br><br>
+        <p>
+          
+			<div class="carousel-caption">
+        <h3 class="display-6 ">Caring for you like family</h3>
+        <p>HMS was founded in 1945 by a cardiologist who believed in truly patient-centred care. This ethos of compassion, respect and inclusion is at the heart of HMS UK.</p>
+      </div>
+          
+      </div>
+      </div>
+      <div class="carousel-item">
+        <div class="doctor" style="margin-bottom: 0px;margin-top: 0px;">
+          <br>
+          <h5 class="display-2 glow">Together we save lives</h5>
+
+          <br><br><br><br><br>
+          <br><br><br><br><br>
+          <br><br><br><br><br>
+          <br><br><br><br><br>
+          <p>
+            <p>
+            <div class="carousel-caption">
+              <h3 class="display-6 ">A different kind of healthcare company</h3>
+              <p>Unlike other private healthcare providers, we can look after you no matter how complex or acute your condition. We cover all aspects of medicine, including cardiac and cancer care, paediatrics, orthopaedics, rehabilitation and obstetrics. </p>
+            </div>
+        
+         
+        </div>
+        </div>
+    
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+
+</div>
+
+
+<br><br><br><br>
+
+{% include "hospital/admin_doctor_patient_card.html" %}
+<br><br><br>
+<!--
+developed By : Raj
+-->
+
+{% endblock content %}

@@ -1,0 +1,57 @@
+{% extends 'hospital/homebase.html' %}
+<!--
+developed By : Raj
+-->
+{% load static %}
+{% block content %}
+<head>
+  <style>
+ .card {
+        margin: 0 auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+}
+
+  </style>
+</head>
+
+
+
+<body>
+  <br>
+<br>
+
+
+<div class="container mt-5">
+  <div class="row ">
+  
+  <div class="card-deck">
+  
+    <div class="card" style="width: 600px;">
+      <img src="{% static "images/login.jpg" %}" class="card-img-top" alt="...">
+      <div class="card-body text-center">
+          <h5 class="card-title">Already a member?</h5>
+          <p class="card-text"><q>Wherever the art of medicine is loved, there is also a love of humanity.</q> – Hippocrates</p>
+          <a href="/adminlogin" class="btn btn-primary stretched-link">Log In</a>
+      </div>
+    </div>
+  <div class="card" style="width: 600px;">
+    <img src="{% static "images/signup.jpg" %}" class="card-img-top" alt="...">
+    <div class="card-body text-center">
+        <h5 class="card-title">Join today</h5>
+        <p class="card-text"><q>Health is the greatest gift, contentment the greatest wealth, faithfulness the best relationship.</q> – Buddha</p>
+        <a href="/adminsignup" class="btn btn-primary stretched-link">Register</a>
+    </div>
+  </div>
+  
+  
+  </div>
+  </div>
+
+</div>
+
+
+  </body>
+
+
+{% endblock content %}

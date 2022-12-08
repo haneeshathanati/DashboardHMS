@@ -1,0 +1,100 @@
+{% extends 'hospital/doctor_base.html' %}
+{% load static %}
+{% block content %}
+{%include 'hospital/doctor_dashboard_cards.html'%}
+<head>
+  <style>
+ * {
+  font-family: sans-serif; /* Change your font family */
+}
+
+.content-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+  padding: 12px 15px;
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.content-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+.panel-primary {
+    border-color: #337ab7;
+}
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 0px;
+    -webkit-box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
+    box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
+}
+
+</style>
+</head>
+<body>
+<br><br><br><br>
+<div class="container">
+  <div class="row">
+    <div class="panel panel-primary" style="margin-left:15%;">
+      <div class="panel-heading" style="text-align:center;">
+        <h6 class="panel-title">Recent Appointments For You</h6>
+      </div>
+      <table class="table table-hover content-table" id="dev-table">
+        <thead>
+          <tr>
+            <th>Patient Name</th>
+            <th>Picture</th>
+            <th>Description</th>
+            <th>Mobile</th>
+            <th>Address</th>
+            <th>Date</th>
+          </tr>
+        </thead>
+        {% for a,p in appointments %}
+        <tr>
+          <td>{{a.patientName}}</td>
+          <td> <img src="{% static p.profile_pic.url %}" alt="Profile Pic" height="40px" width="40px" /></td>
+          <td>{{a.description}}</td>
+          <td>{{p.mobile}}</td>
+          <td>{{p.address}}</td>
+          <td>{{a.appointmentDate}}</td>
+        </tr>
+        {% endfor %}
+      </table>
+    </div>
+  </div>
+</div>
+<!--
+developed By : Raj
+-->
+</body>
+{% endblock content %}

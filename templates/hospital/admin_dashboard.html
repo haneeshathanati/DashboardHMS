@@ -1,0 +1,139 @@
+{% extends 'hospital/admin_base.html' %}
+{% load static %}
+{% block content %}
+{%include 'hospital/admin_dashboard_cards.html'%}
+<head>
+  <style>
+ * {
+  font-family: sans-serif; /* Change your font family */
+}
+
+.content-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+  padding: 12px 15px;
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.content-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+.panel-primary {
+    border-color: #337ab7;
+}
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 0px;
+    -webkit-box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
+    box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
+}
+
+</style>
+</head>
+<body>
+<br><br><br><br>
+<div class="container">
+  <div class="row">
+    <div class="panel panel-primary col-md-5" style="margin-left:2%;">
+      <div class="panel-heading" style="text-align:center;">
+        <h6 class="panel-title">House Doctors</h6>
+      </div>
+      <table class="table table-hover content-table" id="dev-table">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Department</th>
+            <th>Mobile</th>
+            <th>Status</th>
+
+          </tr>
+        </thead>
+        {% for d in doctors %}
+        {%if d.status%}
+        <tr>
+        {% else %}
+        <tr class="active-row">
+        {% endif %}
+          <td> {{d.get_name}}</td>
+          <td>{{d.department}}</td>
+          <td>{{d.mobile}}</td>
+          {%if d.status%}
+          <td> <span class="label label-primary">Permanent</span></td>
+          {% else %}
+          <td> <span class="label label-success">On Hold</span></td>
+          {% endif %}
+
+        </tr>
+        {% endfor %}
+      </table>
+    </div>
+
+    <div class="panel panel-primary col-md-5" style="margin-left:5%;">
+      <div class="panel-heading" style="text-align:center;">
+        <h6 class="panel-title">Recent Patients</h6>
+      </div>
+      <table class="table table-hover content-table" id="dev-table">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Symptoms</th>
+            <th>Mobile</th>
+            <th>Address</th>
+            <th>Status</th>
+
+          </tr>
+        </thead>
+        {% for p in patients %}
+        <tr>
+          <td> {{p.get_name}}</td>
+          <td>{{p.symptoms}}</td>
+          <td>{{p.mobile}}</td>
+          <td>{{p.address}}</td>
+          {%if p.status%}
+          <td> <span class="label label-primary">Admitted</span></td>
+          {% else %}
+          <td> <span class="label label-success">On Hold</span></td>
+          {% endif %}
+
+        </tr>
+        {% endfor %}
+      </table>
+    </div>
+  </div>
+</div>
+</body>
+<!--
+developed By : Raj
+-->
+
+{% endblock content %}
